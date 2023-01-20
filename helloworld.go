@@ -9,6 +9,7 @@ For me, just keep learning!
 func main() {
 	// var with data type
 	var name string = "bayu"
+	var isToday bool = true
 	// no var no data type
 	job := "frontend"
 	// can't use := for reasign variable :=, use = instead
@@ -16,7 +17,7 @@ func main() {
 	// multiple declaration
 	var (
 		firstname = "bayu"
-		lastname = "setiawan"
+		lastname  = "setiawan"
 	)
 	// like console.log()
 	fmt.Println("hello world")
@@ -25,4 +26,5 @@ func main() {
 	fmt.Println(name)
 	fmt.Println(job)
 	fmt.Println(firstname, lastname)
+	fmt.Println(isToday)
 }
